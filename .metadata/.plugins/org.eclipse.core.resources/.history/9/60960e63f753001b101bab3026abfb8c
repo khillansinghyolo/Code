@@ -1,0 +1,31 @@
+package november;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
+
+public class classDemo {
+	public static void main(String[] args) {
+		
+		HashMap<String ,Integer> map=new HashMap();
+		
+		map.put("Noida", 5000);
+		map.put("Gurgaon", 6000);
+		map.put("Faridabad", 8000);
+		map.put("Delhi", 10000);
+		map.put("Pune", 9000);
+		map.put("Channai", 9900);
+		Set<String> keys=	map.keySet();
+		Object value=map.values();
+		Object sum =0;
+		for(String s:keys)
+		{
+			System.out.println(
+			if(map.get(s).equals("Noida") ||map.get(s).equals("Gurgaon") || map.get(s).equals("Faridabad")  ||map.get(s).equals("Delhi") )
+			{
+				sum=sum +s.valueOf(map);
+			}
+		}
+		System.out.println("sum of Ncr population"+sum);
+	}
+}

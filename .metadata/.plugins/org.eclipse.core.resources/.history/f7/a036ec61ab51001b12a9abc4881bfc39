@@ -1,0 +1,17 @@
+
+public class test {
+
+	
+	public static void main(String[] args) {
+		
+		String in="rohit singh";
+		
+		String ss[]=in.split(" ");
+		String rev="";
+		for (int i = 0; i < ss.length; i++) {
+			in.charAt(i);	
+			for()
+		}
+		
+	}
+}

@@ -1,0 +1,25 @@
+package november;
+
+import october.Test;
+
+public class SingletonDemo {
+
+	
+	private static SingletonDemo t=new SingletonDemo();
+	
+	private SingletonDemo()
+	{
+		
+	}
+	public static SingletonDemo getSingletonDemo()
+	{
+		
+	return t;	
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	 t.getSingletonDemo();
+	}
+}

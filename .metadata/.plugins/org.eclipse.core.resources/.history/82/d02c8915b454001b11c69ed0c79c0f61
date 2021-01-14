@@ -1,0 +1,29 @@
+
+public class test {
+
+	
+	public static void main(String[] args) {
+		
+		String in="rohit singh";
+		char []ss=in.toCharArray();
+		String rev="";
+		int s=in.length();
+		for (int i = s-1; i >0; i--) 
+		{
+		rev=rev+ss[i];	
+		System.out.println(rev);
+		}
+		
+	
+	int sss=ss.length;
+	
+	for (int j = sss-1; j >0; j--) {
+		
+		
+		System.out.println(sss);
+	}
+		
+		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;selenium.DuplicateString&apos; to &apos;DuplicateStringCharacter&apos;&#x0D;&#x0A;- Original project: &apos;selenium&apos;&#x0D;&#x0A;- Original element: &apos;selenium.DuplicateString&apos;&#x0D;&#x0A;- Renamed element: &apos;selenium.DuplicateStringCharacter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DuplicateString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;selenium{DuplicateString.java[DuplicateString" matchStrategy="1" name="DuplicateStringCharacter" qualified="false" references="true" similarDeclarations="false" stamp="1608021968600" textual="false" version="1.0"/>
+</session>

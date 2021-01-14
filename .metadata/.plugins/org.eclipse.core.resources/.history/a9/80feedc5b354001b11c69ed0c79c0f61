@@ -1,0 +1,27 @@
+
+public class test {
+
+	
+	public static void main(String[] args) {
+		
+		String in="rohit singh";
+	
+		String rev="";
+		int s=in.length();
+		for (int i = s-1; i >0; i--) {
+		System.out.println(in.charAt(i));	
+		}
+		
+	char []ss=in.toCharArray();
+	int sss=ss.length;
+	
+	for (int j = sss-1; j >0; j--) {
+		
+		
+		System.out.println(sss);
+	}
+		
+		
+		
+	}
+}
